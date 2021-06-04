@@ -1,0 +1,25 @@
+.logo{
+    width: 100px;   
+    height: 50px;
+    float: left;
+}
+
+.topnav{
+    background-color: darkslategray;
+    height: 50px;
+}
+
+.topnav a{
+    float: right;
+    padding: 14px 16px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+   
+}
+.topnav a:hover{
+    text-decoration: none;
+    color: aqua;
+    
+}
