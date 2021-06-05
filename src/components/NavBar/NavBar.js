@@ -10,7 +10,7 @@ function NavBar() {
        <div class="row">
          <div class="col-md-6">
             <a href="#" class="brand">MYTIENDAPP</a>
-         </div>s
+         </div>
          <div class="col-md-6">
            <div class="main">
             <a class="main-item" href="#">Inicio</a>
