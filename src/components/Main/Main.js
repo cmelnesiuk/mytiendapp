@@ -5,9 +5,7 @@ function Main() {
   return (
     <div className="App">
      <NavBar/>
-       <div className="container">
-         { `Formatear el numero ${12764 } `}
-       </div>
+       
     </div>
   );
 }

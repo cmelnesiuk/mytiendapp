@@ -1,25 +1,36 @@
-.logo{
-    width: 100px;   
-    height: 50px;
+nav{
+    background-color: black;
+}
+
+
+.brand{
     float: left;
-}
-
-.topnav{
-    background-color: darkslategray;
-    height: 50px;
-}
-
-.topnav a{
-    float: right;
-    padding: 14px 16px;
-    text-align: center;
+    padding: 10px;
     color: white;
+    text-transform: uppercase;
     text-decoration: none;
-    font-size: 17px;
-   
+    font-size: 20px;
+    font-weight: 500;
 }
-.topnav a:hover{
-    text-decoration: none;
-    color: aqua;
     
+.brand:hover{
+    color:darkred;
+}
+
+
+.main{
+    float: right;  
+    padding: 10px;
+}
+
+.main-item{
+    padding: 7px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.main-item:hover{
+    color:brown;
 }
