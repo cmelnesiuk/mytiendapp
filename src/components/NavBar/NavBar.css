@@ -1,8 +1,7 @@
 nav{
     background-color: black;
+    height: 55px;
 }
-
-
 .brand{
     float: left;
     padding: 10px;
@@ -12,17 +11,17 @@ nav{
     font-size: 20px;
     font-weight: 500;
 }
-    
+ul{
+    list-style: none;
+}
+
 .brand:hover{
     color:darkred;
 }
-
-
 .main{
     float: right;  
     padding: 10px;
 }
-
 .main-item{
     padding: 7px;
     color: white;
@@ -30,7 +29,6 @@ nav{
     text-decoration: none;
     font-size: 13px;
 }
-
 .main-item:hover{
     color:brown;
 }
