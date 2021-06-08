@@ -2,6 +2,7 @@ nav{
    
     height: 55px;
 }
+
 .brand{
     float: left;
     padding: 10px;
@@ -11,6 +12,7 @@ nav{
     font-size: 20px;
     font-weight: 500;
 }
+
 ul{
     list-style: none;
 }
@@ -18,11 +20,13 @@ ul{
 .brand:hover{
     color:darkred;
 }
+
 .main{
     float: right;  
     padding: 10px;
     display: flex;
 }
+
 .main-item{
     padding: 7px;
     text-transform: uppercase;
@@ -32,6 +36,7 @@ ul{
 .main-item:hover{
     color:brown;
 }
+
 .main > main-subitem {
     float: left;
 }
@@ -42,10 +47,10 @@ ul{
     margin-left: -38px;
 }
 
-
 .main li:hover > ul{
     display: block;
 }
+
 .main-subitem{
     color: black;
     font-size: 11px;
@@ -66,28 +71,23 @@ ul{
 }
 
 
-
-
 @media(max-width:575.98px){
-.brand {
-    padding: 10px;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: 500;
-    text-align: center;
-    float: none;
+    .brand {
+        padding: 10px;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 500;
+        text-align: center;
+        float: none;
 }
 
-.main{
-    display: list-item;
-    float: none;
-    text-align: center;
+    .main{
+        display: list-item;
+        float: none;
+        text-align: center;
+    }
 }
-}
-
-
-
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
     .brand {
