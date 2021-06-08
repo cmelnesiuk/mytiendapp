@@ -1,5 +1,5 @@
 import './NavBar.css';
-import "bootstrap/dist/css/bootstrap.min.css"
+
 
 
 
@@ -17,12 +17,24 @@ function NavBar() {
             <p href="#" className="brand">MYTIENDAPP</p>
          </div>
          <div className="col-md-6">
-           <ul className="main d-flex">
+           <ul className="main">
             <li className="main-item">Inicio</li>
             <li className="main-item">Quienes somos</li>
             <li className="main-item">Contacto</li>
-            <li className="main-item">Productos</li>
-            <li className="main-item">Loging</li>
+            <li className="main-item">Productos
+              <ul className="submain mt-1">
+                <li className="main-subitem">Subproduct</li>
+                <li className="main-subitem">SubProduct</li>
+                <li className="main-subitem">SubProduct</li>
+                <li className="main-subitem">SubProduct</li>
+              </ul>
+            </li>
+            <li className="main-item">Login</li>
+            <i class="fas fa-shopping-cart"></i>
+
+
+            
+            
             </ul>
          </div>
        </div>

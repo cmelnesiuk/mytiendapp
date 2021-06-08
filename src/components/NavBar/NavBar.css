@@ -1,11 +1,11 @@
 nav{
-    background-color: black;
+   
     height: 55px;
 }
 .brand{
     float: left;
     padding: 10px;
-    color: white;
+   
     text-transform: uppercase;
     text-decoration: none;
     font-size: 20px;
@@ -21,14 +21,98 @@ ul{
 .main{
     float: right;  
     padding: 10px;
+    display: flex;
 }
 .main-item{
     padding: 7px;
-    color: white;
     text-transform: uppercase;
     text-decoration: none;
     font-size: 13px;
 }
 .main-item:hover{
     color:brown;
+}
+.main > main-subitem {
+    float: left;
+}
+
+.main li ul {
+    display: none;
+    text-align: center; 
+    margin-left: -38px;
+}
+
+
+.main li:hover > ul{
+    display: block;
+}
+.main-subitem{
+    color: black;
+    font-size: 11px;
+    margin:1px;
+}
+
+.main-subitem:hover{
+    color: brown;
+}
+
+.fas{
+    padding: 8px;
+    font-size: 20px;
+}
+
+.fas:hover{
+    color: brown;
+}
+
+
+
+
+@media(max-width:575.98px){
+.brand {
+    padding: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    float: none;
+}
+
+.main{
+    display: list-item;
+    float: none;
+    text-align: center;
+}
+}
+
+
+
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .brand {
+        padding: 10px;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: 500;
+        float: left;
+    }
+    
+    .main{
+        display: flex;
+        float: right;
+    }
+
+    .main-item{
+        padding: 5px;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: 10px;
+    }
+    .fas{
+        padding: 6px;
+        font-size: 15px;
+    }
+
 }
