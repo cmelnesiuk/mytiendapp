@@ -1,0 +1,14 @@
+.fas{
+    font-size: 20px;
+}
+.fas:hover{
+    color: brown;
+}
+
+
+@media(max-width:575.98px){
+    .fas{
+        padding: 6px;
+        font-size: 15px;
+    }
+}

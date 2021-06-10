@@ -1,7 +1,10 @@
 import './NavBar.css';
+import CartWidget from '../CartWidget/CartWidget'
 
 function NavBar() {
   return (
+
+    
     <nav>
       <div className="container-fluid">
         <div className="row">
@@ -22,12 +25,18 @@ function NavBar() {
                 </ul>
               </li>
               <li className="main-item">Login</li>
-              <i class="fas fa-shopping-cart"></i>
+               <div className="main-item">
+                 <CartWidget/>
+                </div>
             </ul>
           </div>
         </div>
       </div>
+
+   
     </nav>
+
+
    
    
   );

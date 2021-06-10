@@ -61,14 +61,6 @@ ul{
     color: brown;
 }
 
-.fas{
-    padding: 8px;
-    font-size: 20px;
-}
-
-.fas:hover{
-    color: brown;
-}
 
 
 @media(max-width:575.98px){
@@ -110,9 +102,6 @@ ul{
         text-decoration: none;
         font-size: 10px;
     }
-    .fas{
-        padding: 6px;
-        font-size: 15px;
-    }
+    
 
 }

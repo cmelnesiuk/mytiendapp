@@ -1,0 +1,29 @@
+.mycount{
+    margin-top: 50px;
+}
+.button {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+.plus-btn {
+    font-size: 20px;
+    transition: 1s;
+}
+
+.minus-btn{
+    font-size: 20px;
+    transition: 1s;
+}
+
+.plus-btn:hover{
+    transform:scale(1.2);
+}
+
+.minus-btn:hover{
+    transform:scale(1.2);
+}
+
+.contador {
+        margin: 44px;
+    }
