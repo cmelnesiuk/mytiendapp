@@ -10,7 +10,7 @@ const ItemListContainer = ({greeting}) => {
 
     return (
         <div className="container">
-            <p className="greeting mt-2">{greeting}</p>
+        <p className="greeting mt-2">{greeting}</p>
         <ItemCount initial={0} stock={10} onAdd={onAdd}/> 
         </div>
     )

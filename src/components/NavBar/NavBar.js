@@ -25,13 +25,11 @@ function NavBar() {
               <li className="main-item">Login</li>
                <div className="main-item">
                  <CartWidget/>
-                </div>
+               </div>
             </ul>
           </div>
         </div>
-      </div>
-
-   
+      </div>git
     </nav>
 
 
