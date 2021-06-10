@@ -3,7 +3,7 @@ import './ItemCount.css'
 
 const ItemCount = ({initial, stock, onAdd}) => {
 
-    // eslint-disable-next-line no-undef
+ 
     const [items , setItems] = useState(initial)
 
     const addItems = () => {
@@ -18,7 +18,7 @@ const ItemCount = ({initial, stock, onAdd}) => {
     }
 
     return (
-        <div className="container-fluid mycount">
+        <div className="container-fluid">
             <div className="row">
                 <div className="col-12 align-self-center text-center">
                 <i className="far fa-minus-square minus-btn mb-1" onClick={minItems}></i>
@@ -26,7 +26,7 @@ const ItemCount = ({initial, stock, onAdd}) => {
                <i className="far fa-plus-square plus-btn mb-1" onClick={addItems}></i>
                 
                <br></br>
-                    <button className="button" onClick={addItems}>Agregar al carrito</button>
+                    <button className="button mb-2 mt-2" onClick={addItems}>Agregar al carrito</button>
                 </div>
             </div>
             
