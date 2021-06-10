@@ -29,7 +29,7 @@ function NavBar() {
             </ul>
           </div>
         </div>
-      </div>git
+      </div>
     </nav>
 
 
