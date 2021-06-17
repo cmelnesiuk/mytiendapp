@@ -1,4 +1,3 @@
-import { element } from 'prop-types'
 import React from 'react'
 import './ItemDetailContainer.css'
 
@@ -6,12 +5,6 @@ const ItemDetailContainer = () => {
 //Esta es todo el bloque que se va a ejecutar al hacer click en el boton de ver detalles
 const letsdoit = () => {
 
-//creo mi objeto cuyos datos seran ingresados x el usuario
-function MyProduct (producto, color, talle) {
-          this.producto = producto;
-          this.color = color;
-          this.talle = talle;
-         }
 //Arrays para los detalles del producto (aca quise crear un solo array con todos los objetos, pero cuando intentaba llamar a cada uno me daba error)
 const Remera = () => [
           {Producto: 'remera', Color: 'azul', Talle: 'S', Material: "algodon", Stock: 1}
@@ -31,9 +24,6 @@ var elementoTalle = document.getElementById("talle")
 var talleP1 = elementoTalle.options[elementoTalle.selectedIndex].text
  
 
-       if (productoP1!=="-" && colorP1!=="-" && talleP1!=="-"){
-       var AllProducts = new MyProduct(productoP1, colorP1, talleP1)
-       }
       
       const getDetails = () => {
         return new Promise ((resolve, reject) => {
