@@ -15,6 +15,8 @@ const ItemCount = ({initial, stock, onAdd}) => {
         setItems(items - 1)
     }
 
+
+
     return (
         <div className="container-fluid">
             <div className="row">
@@ -23,7 +25,7 @@ const ItemCount = ({initial, stock, onAdd}) => {
                     <span className="contador">{items}</span>
                     <i className="far fa-plus-square plus-btn mb-1" onClick={addItems}></i>
                     <br></br>
-                    <button className="button mb-2 mt-2">Agregar al carrito</button>
+                    <button className="button mb-2 mt-2" onClick={() => onAdd(items)}>Agregar al carrito</button>
                 </div>
             </div>
         </div>
